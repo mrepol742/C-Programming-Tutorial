@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<style name="a" parent="@android:style/Theme.Material.Light.DarkActionBar"><item name="android:listDivider">@android:color/transparent</item><item name="android:windowBackground">@color/d</item><item name="android:colorPrimary">@color/a</item><item name="android:colorPrimaryDark">@color/b</item><item name="android:colorAccent">@color/c</item><item name="android:statusBarColor">@color/b</item><item name="android:navigationBarColor">@color/f</item><item name="android:textColor">@color/e</item><item name="android:fontFamily">sans-serif</item><item name="android:textSize">13.0dip</item></style>
+</resources>

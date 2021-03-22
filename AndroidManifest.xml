@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:installLocation="auto" android:versionCode="011201827" android:versionName="2.0" package="com.android.DROID_MJ.cprogrammingtutorial" platformBuildVersionCode="27" platformBuildVersionName="8.1.0">
+	<uses-sdk android:minSdkVersion="21" android:targetSdkVersion="27" />
+	<application android:hardwareAccelerated="true" android:allowBackup="true" android:icon="@mipmap/a" android:label="@string/a" android:roundIcon="@mipmap/b" android:supportsRtl="true" android:theme="@style/a">
+		<activity android:name="com.android.DROID_MJ.cprogrammingtutorial.a">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		<activity android:label="@string/c" android:name="com.android.DROID_MJ.cprogrammingtutorial.a0" android:parentActivityName="com.android.DROID_MJ.cprogrammingtutorial.a" android:screenOrientation="portrait" />
+		<activity android:label="@string/e" android:name="com.android.DROID_MJ.cprogrammingtutorial.a1" android:parentActivityName="com.android.DROID_MJ.cprogrammingtutorial.a" android:screenOrientation="portrait" />
+		<activity android:label="@string/f" android:name="com.android.DROID_MJ.cprogrammingtutorial.a2" android:parentActivityName="com.android.DROID_MJ.cprogrammingtutorial.a" android:screenOrientation="portrait" />
+		<activity android:label="@string/g" android:name="com.android.DROID_MJ.cprogrammingtutorial.a3" android:parentActivityName="com.android.DROID_MJ.cprogrammingtutorial.a" android:screenOrientation="portrait" />
+		<activity android:label="@string/h" android:name="com.android.DROID_MJ.cprogrammingtutorial.a4" android:parentActivityName="com.android.DROID_MJ.cprogrammingtutorial.a" android:screenOrientation="portrait" />
+		<activity android:label="@string/i" android:name="com.android.DROID_MJ.cprogrammingtutorial.a5" android:parentActivityName="com.android.DROID_MJ.cprogrammingtutorial.a" android:screenOrientation="portrait" />
+		<activity android:label="@string/j" android:name="com.android.DROID_MJ.cprogrammingtutorial.a6" android:parentActivityName="com.android.DROID_MJ.cprogrammingtutorial.a" android:screenOrientation="portrait" />
+		<activity android:label="@string/k" android:name="com.android.DROID_MJ.cprogrammingtutorial.a7" android:parentActivityName="com.android.DROID_MJ.cprogrammingtutorial.a" android:screenOrientation="portrait" />
+		<activity android:label="@string/l" android:name="com.android.DROID_MJ.cprogrammingtutorial.a8" android:parentActivityName="com.android.DROID_MJ.cprogrammingtutorial.a" android:screenOrientation="portrait" />
+		<activity android:label="@string/m" android:name="com.android.DROID_MJ.cprogrammingtutorial.a9" android:parentActivityName="com.android.DROID_MJ.cprogrammingtutorial.a" android:screenOrientation="portrait" />
+		<activity android:label="@string/n" android:name="com.android.DROID_MJ.cprogrammingtutorial.a10" android:parentActivityName="com.android.DROID_MJ.cprogrammingtutorial.a" android:screenOrientation="portrait" />
+		<activity android:label="@string/z" android:name="com.android.DROID_MJ.cprogrammingtutorial.a11" android:parentActivityName="com.android.DROID_MJ.cprogrammingtutorial.a" android:screenOrientation="portrait" />
+		<activity android:label="@string/a1" android:name="com.android.DROID_MJ.cprogrammingtutorial.a12" android:parentActivityName="com.android.DROID_MJ.cprogrammingtutorial.a" android:screenOrientation="portrait" />
+		<activity android:label="@string/a2" android:name="com.android.DROID_MJ.cprogrammingtutorial.a13" android:parentActivityName="com.android.DROID_MJ.cprogrammingtutorial.a" android:screenOrientation="portrait" />
+		<activity android:label="@string/a3" android:name="com.android.DROID_MJ.cprogrammingtutorial.a14" android:parentActivityName="com.android.DROID_MJ.cprogrammingtutorial.a" android:screenOrientation="portrait" />
+		<activity android:label="@string/a4" android:name="com.android.DROID_MJ.cprogrammingtutorial.a15" android:parentActivityName="com.android.DROID_MJ.cprogrammingtutorial.a" android:screenOrientation="portrait" />
+		<activity android:label="@string/a11" android:name="com.android.DROID_MJ.cprogrammingtutorial.b" android:parentActivityName="com.android.DROID_MJ.cprogrammingtutorial.a" android:screenOrientation="portrait" />
+		<activity android:label="@string/a12" android:name="com.android.DROID_MJ.cprogrammingtutorial.b0" android:parentActivityName="com.android.DROID_MJ.cprogrammingtutorial.b" android:screenOrientation="portrait" />
+		<activity android:label="@string/a13" android:name="com.android.DROID_MJ.cprogrammingtutorial.b1" android:parentActivityName="com.android.DROID_MJ.cprogrammingtutorial.b" android:screenOrientation="portrait" />
+		<activity android:label="@string/a14" android:name="com.android.DROID_MJ.cprogrammingtutorial.b2" android:parentActivityName="com.android.DROID_MJ.cprogrammingtutorial.b" android:screenOrientation="portrait" />
+		<activity android:label="@string/a15" android:name="com.android.DROID_MJ.cprogrammingtutorial.b3" android:parentActivityName="com.android.DROID_MJ.cprogrammingtutorial.b" android:screenOrientation="portrait" />
+		<activity android:label="@string/a16" android:name="com.android.DROID_MJ.cprogrammingtutorial.b4" android:parentActivityName="com.android.DROID_MJ.cprogrammingtutorial.b" android:screenOrientation="portrait" />
+		<activity android:label="@string/a17" android:name="com.android.DROID_MJ.cprogrammingtutorial.b5" android:parentActivityName="com.android.DROID_MJ.cprogrammingtutorial.b" android:screenOrientation="portrait" />
+		<activity android:label="@string/a18" android:name="com.android.DROID_MJ.cprogrammingtutorial.b6" android:parentActivityName="com.android.DROID_MJ.cprogrammingtutorial.b" android:screenOrientation="portrait" />
+		<activity android:label="@string/a19" android:name="com.android.DROID_MJ.cprogrammingtutorial.b7" android:parentActivityName="com.android.DROID_MJ.cprogrammingtutorial.b" android:screenOrientation="portrait" />
+		<activity android:label="@string/a20" android:name="com.android.DROID_MJ.cprogrammingtutorial.b8" android:parentActivityName="com.android.DROID_MJ.cprogrammingtutorial.b" android:screenOrientation="portrait" />
+		<activity android:label="@string/b1" android:name="com.android.DROID_MJ.cprogrammingtutorial.b9" android:parentActivityName="com.android.DROID_MJ.cprogrammingtutorial.b" android:screenOrientation="portrait" />
+		<activity android:label="@string/b2" android:name="com.android.DROID_MJ.cprogrammingtutorial.b10" android:parentActivityName="com.android.DROID_MJ.cprogrammingtutorial.b" android:screenOrientation="portrait" />
+		<activity android:label="@string/b3" android:name="com.android.DROID_MJ.cprogrammingtutorial.b11" android:parentActivityName="com.android.DROID_MJ.cprogrammingtutorial.b" android:screenOrientation="portrait" />
+		<activity android:label="@string/b4" android:name="com.android.DROID_MJ.cprogrammingtutorial.b12" android:parentActivityName="com.android.DROID_MJ.cprogrammingtutorial.b" android:screenOrientation="portrait" />
+		<activity android:label="@string/b5" android:name="com.android.DROID_MJ.cprogrammingtutorial.b13" android:parentActivityName="com.android.DROID_MJ.cprogrammingtutorial.b" android:screenOrientation="portrait" />
+		<activity android:label="@string/b6" android:name="com.android.DROID_MJ.cprogrammingtutorial.b14" android:parentActivityName="com.android.DROID_MJ.cprogrammingtutorial.b" android:screenOrientation="portrait" />
+		<activity android:label="@string/b7" android:name="com.android.DROID_MJ.cprogrammingtutorial.b15" android:parentActivityName="com.android.DROID_MJ.cprogrammingtutorial.b" android:screenOrientation="portrait" />
+		<activity android:label="@string/b8" android:name="com.android.DROID_MJ.cprogrammingtutorial.b16" android:parentActivityName="com.android.DROID_MJ.cprogrammingtutorial.b" android:screenOrientation="portrait" />
+		<activity android:label="@string/b9" android:name="com.android.DROID_MJ.cprogrammingtutorial.b17" android:parentActivityName="com.android.DROID_MJ.cprogrammingtutorial.b" android:screenOrientation="portrait" />
+		<activity android:label="@string/b10" android:name="com.android.DROID_MJ.cprogrammingtutorial.b18" android:parentActivityName="com.android.DROID_MJ.cprogrammingtutorial.b" android:screenOrientation="portrait" />
+		<activity android:label="@string/b11" android:name="com.android.DROID_MJ.cprogrammingtutorial.b19" android:parentActivityName="com.android.DROID_MJ.cprogrammingtutorial.b" android:screenOrientation="portrait" />
+		<activity android:label="@string/b12" android:name="com.android.DROID_MJ.cprogrammingtutorial.b20" android:parentActivityName="com.android.DROID_MJ.cprogrammingtutorial.b" android:screenOrientation="portrait" />
+		<activity android:label="@string/b13" android:name="com.android.DROID_MJ.cprogrammingtutorial.b21" android:parentActivityName="com.android.DROID_MJ.cprogrammingtutorial.b" android:screenOrientation="portrait" />
+	</application>
+</manifest>

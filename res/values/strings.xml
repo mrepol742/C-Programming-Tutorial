@@ -1,0 +1,793 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="a">C Programming Tutorial</string>
+<string name="b">"C (/siː/, as in the letter c) is a general-purpose, imperative computer programming language, supporting structured programming, lexical variable scope and recursion, while a static type system prevents many unintended operations. 
+
+By design, C provides constructs that map efficiently to typical machine instructions, and therefore it has found lasting use in applications that had formerly been coded in assembly language, including operating systems, as well as various application software for computers ranging from supercomputers to embedded systems.
+
+C was originally developed by Dennis Ritchie between 1969 and 1973 at Bell Labs, and used to re-implement the Unix operating system.
+
+It has since become one of the most widely used programming languages of all time, with C compilers from various vendors available for the majority of existing computer architectures and operating systems.
+
+C has been standardized by the American National Standards Institute (ANSI) since 1989 (see ANSI C) and subsequently by the International Organization for Standardization (ISO).
+
+C is an imperative procedural language. 
+
+It was designed to be compiled using a relatively straightforward compiler, to provide low-level access to memory, to provide language constructs that map efficiently to machine instructions, and to require minimal run-time support. 
+
+Despite its low-level capabilities, the language was designed to encourage cross-platform programming. 
+
+A standards-compliant C program that is written with portability in mind can be compiled for a very wide variety of computer platforms and operating systems with few changes to its source code. 
+
+The language has become available on a very wide range of platforms, from embedded microcontrollers to supercomputers.
+
+Like most imperative languages in the ALGOL tradition, C has facilities for structured programming and allows lexical variable scope and recursion, while a static type system prevents many unintended operations. 
+
+In C, all executable code is contained within subroutines, which are called "functions" (although not in the strict sense of functional programming). Function parameters are always passed by value. 
+
+Pass-by-reference is simulated in C by explicitly passing pointer values. 
+
+C program source text is free-format, using the semicolon as a statement terminator and curly braces for grouping blocks of statements.
+
+The C language also exhibits the following characteristics:
+
+There is a small, fixed number of keywords, including a full set of control flow primitives: for, if/else, while, switch, and do/while. 
+
+User-defined names are not distinguished from keywords by any kind of sigil.
+
+There are a large number of arithmetical and logical operators, such as +, +=, ++, &amp;, ~, etc.
+
+More than one assignment may be performed in a single statement.
+
+Function return values can be ignored when not needed.
+Typing is static, but weakly enforced: all data has a type, but implicit conversions may be performed.
+
+Declaration syntax mimics usage context. 
+
+C has no "define" keyword; instead, a statement beginning with the name of a type is taken as a declaration.
+
+There is no "function" keyword; instead, a function is indicated by the parentheses of an argument list.
+
+User-defined (typedef) and compound types are possible.
+
+Heterogeneous aggregate data types (struct) allow related data elements to be accessed and assigned as a unit.
+
+Union is a structure with overlapping members; only the last member stored is valid.
+
+Array indexing is a secondary notation, defined in terms of pointer arithmetic. 
+
+Unlike structs, arrays are not first-class objects; they cannot be assigned or compared using single built-in operators. 
+
+There is no "array" keyword, in use or definition; instead, square brackets indicate arrays syntactically, for example month.
+
+Enumerated types are possible with the  enum keyword. 
+
+They are freely interconvertible with integers.
+
+Strings are not a separate data type, but are conventionally implemented as null-terminated arrays of characters.
+
+Low-level access to computer memory is possible by 
+converting machine addresses to typed pointers.
+
+Procedures (subroutines not returning values) are a special case of function, with an untyped return type void.
+
+Functions may not be defined within the lexical scope of other functions.
+
+Function and data pointers permit ad hoc run-time polymorphism.
+
+A preprocessor performs macro definition, source code file inclusion, and conditional compilation.
+
+There is a basic form of modularity: files can be compiled separately and linked together, with control over which functions and data objects are visible to other files via  static and extern attributes.
+
+Complex functionality such as I/O, string manipulation, and mathematical functions are consistently delegated to library routines.
+
+While C does not include some features found in some other languages, such as object orientation or garbage collection, such features can be implemented or emulated in C, often by way of external libraries (e.g., the Boehm garbage collector or the GLib Object System).
+
+Relations to other languages	
+
+Many later languages have borrowed directly or indirectly from C, including C++, C#, Unix's C shell, D, Go, Java, JavaScript, Limbo, LPC, Objective-C, Perl, PHP, Python, Rust, Swift, Verilog and SystemVerilog (hardware description languages). 
+
+These languages have drawn many of their control structures and other basic features from C. 
+
+Most of them (with Python being the most dramatic exception) are also very syntactically similar to C in general, and they tend to combine the recognizable expression and statement syntax of C with underlying type systems, data models, and semantics that can be radically different.
+
+1972	Birth
+1978	K&amp;R C
+1989/1990	ANSI C and ISO C
+1999	C99
+2011	C11
+2017/2018	C18
+
+The origin of C is closely tied to the development of the Unix operating system, originally implemented in assembly language on a PDP-7 by Dennis Ritchie and Ken Thompson, incorporating several ideas from colleagues. 
+
+Eventually, they decided to port the operating system to a PDP-11. 
+
+The original PDP-11 version of Unix was developed in assembly language. 
+
+The developers were considering rewriting the system using the B language, Thompson's simplified version of BCPL.
+
+However B's inability to take advantage of some of the PDP-11's features, notably byte addressability, led to C. The name of C was chosen simply as the next after B.
+
+The development of C started in 1972 on the PDP-11 Unix system[13] and first appeared in Version 2 Unix.
+
+The language was not initially designed with portability in mind, but soon ran on different platforms as well: a compiler for the Honeywell 6000 was written within the first year of C's history, while an IBM System/370 port followed soon.
+
+Also in 1972, a large part of Unix was rewritten in C. 
+
+By 1973, with the addition of struct types, the C language had become powerful enough that most of the Unix kernel was now in C.
+
+Unix was one of the first operating system kernels implemented in a language other than assembly. 
+
+Earlier instances include the Multics system (which was written in PL/I) and Master Control Program (MCP) for the Burroughs B5000 (which was written in ALGOL) in 1961.
+
+In around 1977, Ritchie and Stephen C. Johnson made further changes to the language to facilitate portability of the Unix operating system. 
+
+Johnson's Portable C Compiler served as the basis for several implementations of C on new platforms
+"</string>
+<string name="c">About C Language</string>
+<string name="d">"The syntax of the C programming language, the rules governing writing of software in the language, is designed to allow for programs that are extremely terse, have a close relationship with the resulting object code, and yet provide relatively high-level data abstraction. 
+
+C was the first widely successful high-level language for portable operating-system development.
+
+C syntax makes use of the maximal munch principle.
+
+Primitive data types
+
+The C language represents numbers in three forms: integral, real and complex. 
+
+This distinction reflects similar distinctions in the instruction set architecture of most central processing units. 
+
+Integral data types store numbers in the set of integers, while real and complex numbers represent numbers (or pair of numbers) in the set of real numbers in floating point form.
+
+All C integer types have signed and unsigned variants. If signed or unsigned is not specified explicitly, in most circumstances signed is assumed. 
+
+However, for historic reasons plain char is a type distinct from both signed char and unsigned char. 
+
+It may be a signed type or an unsigned type, depending on the compiler and the character set (C guarantees that members of the C basic character set have positive values). 
+
+Also, bit field types specified as plain int may be signed or unsigned, depending on the compiler.
+
+Integer types	
+
+C's integer types come in different fixed sizes, capable of representing various ranges of numbers. 
+
+The type char occupies exactly one byte (the smallest addressable storage unit), which is typically 8 bits wide. 
+
+(Although char can represent any of C's "basic" characters, a wider type may be required for international character sets.) 
+
+Most integer types have both signed and unsigned varieties, designated by the signed and unsigned keywords. Signed integer types may use a two's complement, ones' complement, or sign-and-magnitude representation. 
+
+In many cases, there are multiple equivalent ways to designate the type; for example, signed shortint and short are synonymous.
+
+The representation of some types may include unused "padding" bits, which occupy storage but are not included in the width. 
+
+The following table provides a complete list of the standard integer types and their minimum allowed widths (including any sign bit).
+
+Shortest form of specifier |	Minimum width (bits)
+_Bool	| 1
+char	| 8
+signed char |	8
+unsigned char | 8
+short | 16
+unsigned short	| 16
+int	| 16
+unsigned int | 16
+long	| 32
+unsigned long | 	32
+long long | 64
+unsigned long long | 64
+
+
+
+The char type is distinct from both signed char and unsigned char, but is guaranteed to have the same representation as one of them. 
+
+The _Bool and long long types are standardized since 1999, and may not be supported by older C compilers. 
+
+Type _Bool is usually accessed via the typedef name bool defined by the standard header stdbool.h.
+
+In general, the widths and representation scheme implemented for any given platform are chosen based on the machine architecture, with some consideration given to the ease of importing source code developed for other platforms. 
+
+The width of the int type varies especially widely among C implementations; it often corresponds to the most "natural" word size for the specific platform. 
+
+The standard header limits.h defines macros for the minimum and maximum representable values of the standard integer types as implemented on any specific platform.
+
+In addition to the standard integer types, there may be other "extended" integer types, which can be used for typedefs in standard headers. 
+
+For more precise specification of width, programmers can and should use typedefs from the standard header stdint.h.
+
+Integer constants may be specified in source code in several ways. 
+
+Numeric values can be specified as decimal (example: 1022), octal with zero (0) as a prefix (01776), or hexadecimal with 0x (zero x) as a prefix (0x3FE). A character in single quotes (example: 'R'), called a "character constant," represents the value of that character in the execution character set, with type int. 
+
+Except for character constants, the type of an integer constant is determined by the width required to represent the specified value, but is always at least as wide as int. 
+
+This can be overridden by appending an explicit length and/or signedness modifier; for example, 12lu has type unsigned long. 
+
+There are no negative integer constants, but the same effect can often be obtained by using a unary negation operator "-".
+
+Enumerated type
+
+The enumerated type in C, specified with the enum keyword, and often just called an "enum" (usually pronounced ee'-num /ˌi.nʌm/ or ee'-noom /ˌi.nuːm/), is a type designed to represent values across a series of named constants. 
+
+Each of the enumerated constants has type int. Each enum type itself is compatible with char or a signed or unsigned integer type, but each implementation defines its own rules for choosing a type.
+
+Some compilers warn if an object with enumerated type is assigned a value that is not one of its constants. However, such an object can be assigned any values in the range of their compatible type, and enum constants can be used anywhere an integer is expected. 
+
+For this reason, enum values are often used in place of preprocessor #define directives to create named constants. 
+
+Such constants are generally safer to use than macros, since they reside within a specific identifier namespace.
+
+An enumerated type is declared with the enum specifier and an optional name (or tag) for the enum, followed by a list of one or more constants contained within curly braces and separated by commas, and an optional list of variable names. 
+
+Subsequent references to a specific enumerated type use the enum keyword and the name of the enum. 
+
+By default, the first constant in an enumeration is assigned the value zero, and each subsequent value is incremented by one over the previous constant. 
+
+Specific values may also be assigned to constants in the declaration, and any subsequent constants without specific values will be given incremented values from that point onward. For example, consider the following declaration:
+
+enum colors { RED, GREEN, BLUE = 5, YELLOW } paint_color;
+
+This declares the enum colors type; the int constants RED (whose value is 0), GREEN (whose value is one greater than RED, 1), BLUE (whose value is the given value, 5), and YELLOW (whose value is one greater than BLUE, 6); and the enum colors variable paint_color. 
+
+The constants may be used outside of the context of the enum (where any integer value is allowed), and values other than the constants may be assigned to paint_color, or any other variable of type enum colors.
+
+
+
+\#include &lt;stdio.h>
+
+int main()
+
+{
+
+/* my first program in C */
+
+printf(Hello, World!);
+
+return 0;
+
+}
+
+Compile and Execute C Program
+
+Let us see how to save the source code in a file, and how to compile and run it. Following are the simple steps:
+
+Open a text editor and add the above-mentioned code.
+
+Save the file as hello.c
+
+Open a command prompt and go to the directory where you have saved the file.
+
+Type gcc hello.c and press enter to compile your code.
+
+If there are no errors in your code, the command prompt will take you to the next line and would generate a.out executable file.
+
+Now, type a.out to execute your program.
+
+You will see the output Hello World printed on the screen.
+
+Semicolons
+In a C program, the semicolon is a statement terminator. That is, each individual statement must be ended with a semicolon.
+
+It indicates the end of one logical entity.
+
+Comments are like helping text in your C program and they are ignored by the compiler.
+
+They start with /* and terminate with the characters */ as shown below
+
+    /* my first program in C */
+"</string>
+<string name="e">Syntax</string>
+<string name="f">Data Type</string>
+<string name="g">Variable</string>
+<string name="h">Operators</string>
+<string name="i">Decision Making</string>
+<string name="j">Loop</string>
+<string name="k">Function</string>
+<string name="l">Scope Rules</string>
+<string name="m">Array</string>
+<string name="n">Print Hello Word</string>
+<string name="o">"Data types in c refer to an extensive system used for declaring variables or functions of different types.
+
+The type of a variable determines how much space it occupies in storage and how the bit pattern stored is interpreted
+
+To get the exact size of a type or a variable on a particular platform, you can use the sizeof operator.
+The expressions sizeof(type) yields the storage size of the object or type in bytes.
+"</string>
+<string name="p">"A variable is nothing but a name given to a storage area that our programs can manipulate. 
+
+Each variable in C has a specific type, which determines the size and layout of the variable's memory; the range of values that can be stored within that memory; and the set of operations that can be applied to the variable
+
+char
+
+Typically a single octet(one byte). This is an integer type.
+
+int
+
+The most natural size of integer for the machine.
+
+float
+
+A single-precision floating point value.
+
+double
+
+A double-precision floating point value.
+
+void
+
+Represents the absence of type.
+"</string>
+<string name="q" formatted="false">"An operator is a symbol that tells the compiler to perform specific mathematical or logical functions.
+
+Arithmetic Operators
+
++ Adds two operands A + B = 30
+
+− Subtracts second operand from the first. A − B = -10
+
+* Multiplies both operands. A * B = 200
+
+/ Divides numerator by de-numerator B / A = 2
+
+% Modulus Operator and remainder of after an integer division B % A = 0
+
+++ Increment operator increases the integer value by one A++ = 11
+
+-- Decrement operator decreases the integer value by one A-- = 9
+
+Relational Operators
+== Checks if the values of two operands are equal or not. If yes, then the condition becomes true.
+
+(A == B) is not true. != Checks if the values of two operands are equal or not. 
+
+If the values are not equal, then the condition becomes true.    
+
+(A != B) is true. >
+
+Checks if the value of left operand is greater than the value of right operand. If yes, then the condition becomes true.    
+
+(A > B) is not true. &lt;      
+
+Checks if the value of left operand is less than the value of right operand. 
+
+If yes, then the condition becomes true     
+
+(A > B ) is true. >=    
+
+Checks if the value of left operand is greater than or equal to the value of right operand. 
+
+If yes, then the condition becomes true.    
+
+(A >= B) is not true. &lt;=
+
+Checks if the value of left operand is less than or equal to the value of right operand. 
+
+If yes, then the condition becomes true.    
+
+(A &lt;= B) is true. 
+
+Logical Operators Following table shows all the logical operators supported by C language. 
+
+Assume variable A holds 1 and variable B holds 0, then − Show Examples &amp;&amp; Called Logical AND operator. 
+
+If both the operands are non-zero, then the condition becomes true. 
+
+(A &amp;&amp; B) is false. ||    
+
+Called Logical OR Operator. 
+
+If any of the two operands is non-zero, then the condition becomes true.    
+
+(A || B) is true. !    
+
+Called Logical NOT Operator. 
+
+It is used to reverse the logical state of its operand. 
+
+If a condition is true, then Logical NOT operator will make it false.    
+
+!(A &amp;&amp; B) is true. 
+
+Bitwise Operators Bitwise operator works on bits and perform bit-by-bit operation. 
+
+The truth tables for &amp;, |, and ^ is as follows − &amp; Binary AND Operator copies a bit to the result if it exists in both operands.
+
+(A &amp; B) = 12, i.e., 0000 1100 | Binary OR Operator copies a bit if it exists in either operand.    
+
+(A | B) = 61, i.e., 0011 1101 ^ Binary XOR Operator copies the bit if it is set in one operand but not both.    
+
+(A ^ B) = 49, i.e., 0011 0001 ~ Binary One's Complement Operator is unary and has the effect of 'flipping' bits.    
+
+(~A ) = ~(60), i.e,. -0111101 &lt;&lt; Binary Left Shift Operator. 
+
+The left operands value is moved left by the number of bits specified by the right operand.
+
+A &lt;&lt; 2 = 240 i.e., 1111 0000 >> Binary Right Shift Operator. 
+
+The left operands value is moved right by the number of bits specified by the right operand.    \u0009
+
+A >> 2 = 15 i.e., 0000 1111 Assignment Operators The following table lists the assignment operators supported by the C language − = Simple assignment operator. 
+
+Assigns values from right side operands to left side operand  C = A + B will assign the value of A + B to C +=  Add AND assignment operator. 
+
+It adds the right operand to the left operand and assign the result to the left operand. 
+
+C += A is equivalent to C = C + A -= Subtract AND assignment operator. 
+
+It subtracts the right operand from the left operand and assigns the result to the left operand.    
+
+C -= A is equivalent to C = C - A *=    Multiply AND assignment operator. 
+
+It multiplies the right operand with the left operand and assigns the result to the left operand.    
+
+C *= A is equivalent to C = C * A /= Divide AND assignment operator. 
+
+It divides the left operand with the right operand and assigns the result to the left operand. 
+
+C /= A is equivalent to C = C / A %= Modulus AND assignment operator. 
+
+It takes modulus using two operands and assigns the result to the left operand.    
+
+C %= A is equivalent to C = C % A &lt;&lt;= Left shift AND assignment operator.    
+
+C &lt;&lt;= 2 is same as C = C &lt;&lt; 2 >>= Right shift AND assignment operator.    
+
+C >>= 2 is same as C = C >> 2 &amp;= Bitwise AND assignment operator.    
+
+C &amp;= 2 is same as C = C &amp; 2 ^= Bitwise exclusive OR and assignment operator. 
+
+C ^= 2 is same as C = C ^ 2 |= Bitwise inclusive OR and assignment operator.    
+
+C |= 2 is same as C = C | 2 Misc Operators ➡ sizeof &amp; ternary Besides the operators discussed above, there are a few other important operators including sizeof and ? : supported by the C Language. sizeof() Returns the size of a variable.\u0009sizeof(a), where a is integer, will return 4. &amp; Returns the address of a variable. &amp;a; returns the actual address of the variable. *     Pointer to a variable. *a; ? : Conditional Expression.    If Condition is true ? then value X : otherwise value Y 
+"</string>
+<string name="r">"Decision makingstructures require that the programmer specifies one or more conditions to be evaluated or tested by the program, along with a statement or statements to be executed if the condition is determined to be true, and optionally, other statements to be executed if the condition is determined to be false.
+"</string>
+<string name="s">"if statement
+
+An if statement consists of a boolean expression followed by one or more statements. 
+
+if...else statement
+
+An if statement can be followed by an optional else statement, which executes when the Boolean expression is false.
+
+nested if statements
+
+You can use one if or else if statement inside another if or else if statement(s).
+
+switch statement
+
+A switch statement allows a variable to be tested for equality against a list of values. 
+
+nested switch statements
+
+You can use one switch statement inside another switch statement(s).
+"</string>
+<string name="t">"C programming language provides the following types of loops to handle looping requirements. 
+
+while loop
+
+Repeats a statement or group of statements while a given condition is true. It tests the condition before executing the loop body. 
+
+for loop
+
+Executes a sequence of statements multiple times and abbreviates the code that manages the loop variable. 
+
+do...while loop
+
+It is more like a while statement, except that it tests the condition at the end of the loop body. 
+
+nested loops
+
+You can use one or more loops inside any other while, for, or do..while loop.
+"</string>
+<string name="u" formatted="false">"A function is a group of statements that together perform a task. 
+
+Every C program has at least one function, which is main(), and all the most trivial programs can define additional functions.
+
+Ex:
+return_type function_name( parameter list) {
+  body of function()
+}
+
+Return Type − A function may return a value.
+Function Name − This is the actual name of the function.
+Parameters − A parameter is like a placeholder. When a function is invoked, you pass a value to the parameter
+Function Body − The function body contains a collection of statements that define what the function does
+
+Ex:
+/* function returning the max between two numbers */
+int max(int num1, int num2) {
+
+  /* local variable declaration */
+  int result;
+
+if (num1 > num2)
+    result = num1;
+else
+    result = num2;
+
+  return result;
+}
+
+Function Declarations
+return_type function_name( parameter list );
+
+For the above defined function max(), the function declaration is as follows −
+int max(int num1, int num2);
+
+Parameter names are not important in function declaration only their type is required, so the following is also a valid declaration −
+int max(int, int);
+
+Calling a Function
+
+#include &lt;stdio.h>
+
+/* function declaration */
+int max(int num1, int num2);
+
+int main() {
+
+  /* local variable definition */
+  int a = 100;
+  int b = 200;
+  int ret;
+
+  /* calling a function to get max value */
+  ret = max(a, b);
+  
+  printf( Max value is : %d
+, ret);
+
+  return 0;
+}
+
+/* function returning the max between two numbers */
+int max(int num1, int num2) {
+
+  /* local variable declaration */
+  int result;
+  
+  if (num1 > num2)
+      result = num1;
+  else 
+      result = num2;
+
+  return result;
+}
+
+Function Arguments
+
+If a function is to use arguments, it must declare variables that accept the values of the arguments
+
+Call by value
+The call by value method of passing arguments to a function copies the actual value of an argument into the formal parameter of the function
+
+/* function definition to swap the values */
+void swap(int x, int y) {
+
+  int try;
+
+  try = x; /* save the value of x */
+  x = y; /* put y into x */
+  y = try; /* put try into y */
+
+  return;
+}
+
+Now, let us call the function swap() by passing actual values as in the following
+
+Ex:
+#include &lt;stdio.h>
+
+/* function declaration */
+int max(int x, int y);
+
+int main() {
+
+  /* local variable definition */
+  int a = 100;
+  int b = 200;
+
+  printf(Before swap, Value of a : %d
+, a);
+  printf(Before swap, Value of a : %d
+, b);
+
+  /* calling a function to swap the values */
+  swap(a, b);
+
+  printf(After swap, Value of a : %d
+, a);
+  printf(After swap, Value of a : %d
+, b);
+
+  return 0;
+}
+
+result Before swap, value of a :100 Before swap, value of b :200 After swap, value of a :100 After swap, value of b :200
+"</string>
+<string name="v" formatted="false">"Scope Rules A scope in any programming is a region of the program where a defined variable can have its existence and beyond that variable it cannot be accessed. 
+
+There are three places where variables can be declared in C programming language Inside a function or a block which is called local variables. 
+
+Outside of all functions which is called global variables. 
+
+In the definition of function parameters which are called formal parameters. 
+
+Local Variables Variables that are declared inside a function or block are called local variables.
+
+#include %lt:stdio.h>
+
+int main() {
+
+  /* local variable declaration */
+  int a, b;
+  int c;
+
+  /* actual initialization */
+  a = 10;
+  b = 20;
+  c = a + b;
+
+  printf(value of a = %d, b =%d and c = %d
+, a, b, c);
+
+  return 0;
+}
+"</string>
+<string name="w">"Arrays a kind of data structure that can store a fixed-size sequential conllection of elements of the same type. 
+
+An array is used to store a collection of data, but it is often more useful to think of an array as a collection of variables of the same type.
+"</string>
+<string name="x">C Programming Multidimensional Arrays</string>
+<string name="y">"Program to Display Hello, World!
+
+#include &lt;stdio.h>
+
+int main()
+{
+
+   // printf() displays the string inside quotation
+   printf(Hello, World!);
+
+   return 0;
+}
+
+Output
+
+Hello, World!
+"</string>
+<string name="z">Pointer</string>
+<string name="a1">String</string>
+<string name="a2">Structure</string>
+<string name="a3">File I/O</string>
+<string name="a4">Preprocessor</string>
+<string name="a5" formatted="false">"Pointers in C are easy and fun to learn.
+
+Some C programming tasks are performed more easily with pointers, and other tasks, such as dynamic memory allocation, cannot be performed without using pointers.
+
+So it becomes necessary to learn pointers to become a perfect C programmer. 
+
+#include &lt;stdio.h>
+
+int main() {
+
+  int var1;
+  int var2[10];
+
+  printf("Address of var1 variable: %x\n", &amp;var1);
+  printf("Address of var2 variable: %x\n", &amp;var2);
+
+  return 0;
+}
+
+What are Pointers? A pointer is a variable whose value is the address of another variable, i.e., direct address of the memory location.
+
+Like any variable or constant, you must declare a pointer before using it to store any variable address.
+
+The general form of a pointer variable declaration is
+
+type *var-name;
+
+Here, type is the pointer's base type; it must be a valid C data type and var-name is the name of the pointer variable.
+
+The asterisk * used to declare a pointer is the same asterisk used for multiplication.
+
+However, in this statement the asterisk is being used to designate a variable as a pointer.
+
+Take a look at some of the valid pointer declarations
+
+int *ip; /* pointer to an integer */
+
+double *dp; /* pointer to a double */
+
+float *fp; /* pointer to a float */
+
+char *ch /* pointer to a character */
+"</string>
+<string name="a6">"Strings are actually one-dimensional array of characters terminated by a null character '\0'.
+
+Thus a null-terminated string contains the characters that comprise the string followed by a null. 
+
+The following declaration and initialization create a string consisting of the word "Hello".
+
+To hold the null character at the end of the array, the size of the character array containing the string is one more than the number of characters in the word "Hello."
+
+char greeting[6] = {'H', 'e', 'l', 'l', 'o', '\0'};
+"</string>
+<string name="a7">"Arrays allow to define type of variables that can hold several data items of the same kind.
+
+Similarly structure is another user defined data type available in C that allows to combine data items of different kinds.
+"</string>
+<string name="a8">"A file represents a sequence of bytes, regardless of it being a text file or a binary file.
+
+C programming language provides access on high level functions as well as low level (OS level) calls to handle file on your storage devices.
+This chapter will take you through the important calls for file management.
+
+Writing a File 
+"</string>
+<string name="a9">Reading a file</string>
+<string name="a10">"The C Preprocessor is not a part of the compiler, but is a separate step in the compilation process.
+
+In simple terms, a C Preprocessor is just a text substitution tool and it instructs the compiler to do required pre-processing before the actual compilation. 
+
+We'll refer to the C Preprocessor as CPP.
+"</string>
+<string name="a11">C Programmimg Examples</string>
+<string name="a12">C Program to Print an Integer (Entered by the User)</string>
+<string name="a13">C Program to Add Two Integers</string>
+<string name="a14">Program to Print ASCII Value</string>
+<string name="a15">Program to Find the Size of a variable</string>
+<string name="a16">Program to Check Vowel or consonant</string>
+<string name="a17">Program to Compute Quotient and Remainder</string>
+<string name="a18">Program to Check Leap Year</string>
+<string name="a19">Reverse an Integer</string>
+<string name="a20">Fibonacci Series up to n number of terms</string>
+<string name="b1">Check if a Number is Positive or Negative Using if...else</string>
+<string name="b2">Factorial of a Number</string>
+<string name="b3">Program to Check Palindrome</string>
+<string name="b4">Program to Check Prime Number</string>
+<string name="b5">Check Armstrong Number of three digits</string>
+<string name="b6">Program to print half pyramid</string>
+<string name="b7">Simple Calculator using switch Statement</string>
+<string name="b8">Program to Add Two Matrices</string>
+<string name="b9">Program to Multiply Two Matrices</string>
+<string name="b10">Copy String Manually Without Using strcpy()</string>
+<string name="b11">Calculate Length of String without Using strlen() Function</string>
+<string name="b12">Concatenate Two Strings Without Using strcat()</string>
+<string name="b13">Demonstrate the Dynamic Memory Allocation for Structure</string>
+<string name="b14">Close</string>
+<string name="b15" formatted="false">"Program to Print an Integer
+#include &lt;stdio.h>
+
+int main()
+{
+    int number;
+
+    // printf() dislpays the formatted output
+    printf("Enter an integer: ");
+
+    // scanf() reads the formatted input and stores them
+    scanf("%d", &amp;number);
+
+    // printf() displays the formatted output
+    printf("You entered: %d", number);
+    return 0;
+}
+
+Output
+
+Enter a integer: 25
+You entered: 25
+
+EXPLANATION
+
+In this program, an integer variable number is declared.
+
+The printf() function displays Enter an integer: on the screen. 
+
+Then, the scanf() function reads an integer data from the user and stores in variable number.
+
+Finally, the value stored in the variable number is displayed on the screen using printf() function.
+"</string>
+</resources>
